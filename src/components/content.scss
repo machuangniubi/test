@@ -1,0 +1,64 @@
+.content{
+    height: 364px;
+    width: 100%;
+    overflow: hidden;
+        .newPosition-content{
+            width: 1180px;
+            height: 300px;
+            margin: 32px auto;
+            font-family: PingFangSC-Regular;
+            font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',tahoma,arial;
+        }
+        .content-left{
+            width: 850px;
+            height: 300px;
+            background: #FFFFFF;
+            box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+            border-radius: 3px;
+            float: left;
+            overflow: hidden;
+            position: relative;
+        }
+        .content-right{
+            width: 310px;
+            float: right;
+                a:nth-of-type(1){
+                    text-align: center;
+                    line-height: 140px;
+                    margin-bottom: 20px;
+                    display: block;
+                    cursor: pointer;
+                    height: 140px;
+                    background: #FFFFFF;
+                    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+                    border-radius: 3px;
+                    text-decoration: none;
+                        img{
+                            width: 179px;
+                            vertical-align: middle;
+                            text-align: center;
+                            line-height: 140px;
+                            cursor: pointer;
+                        }
+                }
+                a:nth-of-type(2){
+                    text-align: center;
+                    line-height: 140px;
+                    display: block;
+                    cursor: pointer;
+                    height: 140px;
+                    background: #FFFFFF;
+                    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+                    border-radius: 3px;
+                    text-decoration: none;
+                        img{
+                            width: 260px;
+                            vertical-align: middle;
+                            border: 0px;
+                            text-align: center; 
+                            line-height: 140px;
+                            cursor: pointer;
+                        }
+                }
+        }
+}
